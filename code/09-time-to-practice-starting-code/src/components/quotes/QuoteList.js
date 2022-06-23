@@ -29,6 +29,7 @@ const QuoteList = (props) => {
       pathname: location.pathname,
       search: `?sort=${(isSortingAscending ? 'desc' : 'asc')}`
     });
+    // alt:
     // history.push(`${location.pathname}?sort=${(isSortingAscending ? 'desc' : 'asc')}`);
   };
 
